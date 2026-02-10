@@ -83,6 +83,32 @@ margin-top: 14px;
 margin-bottom: 30px;
 }
 
+.logo_email {
+    width: 80px;
+    margin-bottom: 120px;    
+    display: block;
+    margin: 0 auto;
+}
+.email_circulo{
+    width: 120px;
+  height: 120px;
+  background-color: #f5f5f5;  /*gris clarito */
+ /* background-color: var(--very-light-pink);
+ font-size: var(--md); */
+  border-radius: 50%;        /* círculo perfecto */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 32px auto;         /* separación vertical + centrado */
+}
+
+.resend {
+    color: var(--rojo);
+    cursor: pointer;
+}
+
 @media (max-width: 640px){
     .logo{
         display: block;
